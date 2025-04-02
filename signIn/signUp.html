@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="signUp.css">
+
+    <title>Send Data to Express</title>
+
+</head>
+<body>
+        <div class="container">
+
+    <h1>Sign up</h1>
+    <input type="text" id="name" placeholder="Enter your name" />
+    <input type="text" id="email" placeholder="Enter your email" />
+    <input 
+
+   type="password" 
+    id="password" 
+    placeholder="Enter your password" 
+    minlength="8" 
+    maxlength="20" 
+    pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?=.*[@$!%*?&[#]]).{8,}"
+
+    title="Must contain at least 8 characters, including one uppercase letter, one lowercase letter, one number, and one special character (@$!%*?&)" 
+    required
+
+    type="text" id="password" placeholder="Enter your password" />
+    <button id="sendButton">Sign Up</button>
+    <div id = 'error'>
+        
+        
+    </div>
+
+    </div>
+    <p id="response"></p>
+   <script <source src="signUp.js" type="">>
+    </script>
+</body>
+</html>
+
