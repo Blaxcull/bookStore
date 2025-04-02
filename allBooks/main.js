@@ -52,6 +52,8 @@ const getBooks = async () => {
 
 deleteBook.onclick = async()=>{
     console.log(title.textContent)
+        bookElement.remove()
+
 
     let titleName = title.textContent
     console.log(titleName)
